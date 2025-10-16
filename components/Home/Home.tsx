@@ -9,7 +9,6 @@ import Skills from './Skills/Skills';
 import ClientReview from './ClientReview/ClientReview';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
-import Footer from './Footer/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
