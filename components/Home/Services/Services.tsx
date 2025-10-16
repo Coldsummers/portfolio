@@ -10,10 +10,51 @@ const Services = () => {
         and user-friendly interfaces
       </h1>
       <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 mt-20 items-center">
-        <ServiceCard icon="/images/s1.png" name="UI and UX" description="Designing user interfaces that are both functional and aesthetically pleasing." />
-        <ServiceCard icon="/images/s2.png" name="Web Development" description="Building responsive and performant websites using the latest technologies." />
-        <ServiceCard icon="/images/s3.png" name="Mobile App Development" description="Creating user-friendly mobile applications for iOS and Android." />
-        <ServiceCard icon="/images/s4.png" name="Graphic Design" description="Designing visually appealing graphics for various digital platforms." />
+        <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center" 
+          data-aos-delay="100"
+        >
+          <ServiceCard 
+          icon="/images/s1.png" 
+          name="UI and UX" 
+          description="Designing user interfaces that are both functional and aesthetically pleasing." 
+        />
+        </div>
+        <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center" 
+          data-aos-delay="200"
+        >
+          <ServiceCard 
+          icon="/images/s2.png" 
+          name="Web Development" 
+          description="Building responsive and performant websites using the latest technologies." 
+        />
+        </div>
+        <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center" 
+          data-aos-delay="300"
+        >
+          <ServiceCard 
+          icon="/images/s3.png" 
+          name="Mobile App Development" 
+          description="Creating user-friendly mobile applications for iOS and Android." 
+        />
+        </div>
+        <div 
+          data-aos="fade-right" 
+          data-aos-anchor-placement="top-center" 
+          data-aos-delay="400"
+        >
+          <ServiceCard 
+          icon="/images/s4.png" 
+          name="Graphic Design" 
+          description="Designing visually appealing graphics for various digital platforms." 
+        />
+        </div>
+        
       </div>
     </div>
   );

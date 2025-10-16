@@ -8,7 +8,10 @@ const Projects = () => {
     </h1>
     <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
       {/* 1st Project */}
-      <div>
+      <div
+        data-aos="fade-up" 
+        data-aos-anchor-placement="top-center" 
+      >
         <Image 
           src='/images/p1.jpg' 
           alt="img" 
@@ -24,7 +27,11 @@ const Projects = () => {
         </h1>
       </div>
       {/* 2nd Project */}
-      <div>
+      <div
+        data-aos="zoom-out" 
+        data-aos-anchor-placement="top-center" 
+        data-aos-delay="100"
+      >
         <Image 
           src='/images/p2.jpg' 
           alt="img" 
@@ -40,7 +47,11 @@ const Projects = () => {
         </h1>
       </div>
       {/* 3rd Project */}
-      <div>
+      <div
+        data-aos="zoom-out" 
+        data-aos-anchor-placement="top-center" 
+        data-aos-delay="300"
+      >
         <Image 
           src='/images/p3.jpg' 
           alt="img" 
@@ -56,7 +67,11 @@ const Projects = () => {
         </h1>
       </div>
       {/* 4th Project */}
-      <div>
+      <div
+        data-aos="zoom-out" 
+        data-aos-anchor-placement="top-center" 
+        data-aos-delay="400"
+      >
         <Image 
           src='/images/p1.jpg' 
           alt="img" 
