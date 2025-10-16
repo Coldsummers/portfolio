@@ -12,7 +12,7 @@ const Contact = () => {
             Schedule a call with me
           </h1>
           <p className="text-gray-400 mt-6 text-base sm:text-lg">
-            Reach out to me for collaborations, projects, or just to say hi! I'm
+            Reach out to me for collaborations, projects, or just to say hi! I&apos;m
             always open to discussing new ideas and opportunities.
           </p>
           {/* Info */}
