@@ -10,12 +10,12 @@ type Props ={
 
 const ClientReviewCard = ({image, name, role, review}: Props) => {
   return <div className="m-2">
-    <Image 
-      src={image} 
-      alt="client" 
-      width={60} 
-      height={60} 
-      className="rounded-full"
+    <Image
+      src={image}
+      alt={name}
+      width={80}
+      height={80}
+      className="w-20 h-20 object-cover rounded-full"
     />
     <p className="mt-6 text-base text-gray-200 font-medium">
       &quot; {review} &quot;

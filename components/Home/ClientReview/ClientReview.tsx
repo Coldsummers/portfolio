@@ -47,7 +47,7 @@ const ClientReview = () => {
                 image="/images/c2.JPG" 
                 name="Gideon Barko" 
                 role="UI/UX Designer"
-                review="Working with Samuel was seamless—his frontend skills and creative ideas brought our designs to life beautifully."
+                review="Working with Samuel was seamless. His frontend skills and creative ideas brought our designs to life beautifully."
             />
             <ClientReviewCard 
                 image="/images/c3.jpg" 
