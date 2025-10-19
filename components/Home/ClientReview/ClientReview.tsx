@@ -38,7 +38,7 @@ const ClientReview = () => {
             autoPlaySpeed={4000}
         >
             <ClientReviewCard 
-                image="/images/c1.JPG" 
+                image="/images/c1.jpg" 
                 name="Araba Eshun" 
                 role="Business Analyst"
                 review="Samuel's attention to detail and ability to deliver robust web solutions made our project a success. Highly recommended!"
