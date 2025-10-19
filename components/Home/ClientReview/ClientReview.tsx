@@ -38,29 +38,34 @@ const ClientReview = () => {
             autoPlaySpeed={4000}
         >
             <ClientReviewCard 
-                image="/images/c1.png" 
-                name="Janny Doe" 
-                role="CEO, Landscape" 
+                image="/images/c1.JPG" 
+                name="Araba Eshun" 
+                role="Business Analyst"
+                review="Samuel's attention to detail and ability to deliver robust web solutions made our project a success. Highly recommended!"
             />
             <ClientReviewCard 
-                image="/images/c2.png" 
-                name="John Doe" 
-                role="UI/UX Designer" 
+                image="/images/c2.JPG" 
+                name="Gideon Barko" 
+                role="UI/UX Designer"
+                review="Working with Samuel was seamless—his frontend skills and creative ideas brought our designs to life beautifully."
             />
             <ClientReviewCard 
-                image="/images/c3.png" 
-                name="Siaw Doe" 
-                role="CEO, Tech Company" 
+                image="/images/c3.jpg" 
+                name="Obed Buabeng" 
+                role="Criminal Law Expert"
+                review="Samuel built a secure and user-friendly platform for our firm. His professionalism and expertise are unmatched."
             />
             <ClientReviewCard 
-                image="/images/c4.png" 
-                name="Zara Doe" 
-                role="Web Developer" 
+                image="/images/c4.JPG" 
+                name="Julius Kumadey" 
+                role="Web Developer"
+                review="Samuel's code quality and problem-solving skills are top-notch. He always delivers on time and exceeds expectations."
             />
             <ClientReviewCard 
                 image="/images/c5.png" 
-                name="Jora Doe" 
-                role="CEO, Design Studio" 
+                name="Jora Adjei" 
+                role="CEO, Design Studio"
+                review="Samuel is a reliable developer who understands both business and technical needs. Our collaboration was outstanding!"
             />
         </Carousel>;
     </div>
