@@ -63,34 +63,42 @@ const Contact = () => {
            data-aos-delay="0"
            className="md:p-10 p-5 bg-[#131332] rounded-lg"
         >
+          <form action="https://formspree.io/f/mjkpkeqw" method="POST">
             <input 
                 type="text" 
+                name="name"
                 placeholder="Name" 
                 className="px-4 py-3.5 bg-[#363659] text-white 
                 outline-none rounded-md w-full placeholder:text-white/70"
+                required
             />
             <input 
                 type="email" 
+                name="email"
                 placeholder="Email Address" 
                 className="px-4 py-3.5 bg-[#363659] text-white 
                 outline-none mt-6 rounded-md w-full placeholder:text-white/70"
+                required
             />
             <input 
                 type="text" 
+                name="mobile"
                 placeholder="Mobile Number" 
                 className="px-4 py-3.5 bg-[#363659] text-white 
                 outline-none mt-6 rounded-md w-full placeholder:text-white/70"
             />
             <textarea 
+                name="message"
                 placeholder="Your Message" 
                 className="px-4 py-3.5 bg-[#363659] text-white 
                 outline-none mt-6 rounded-md w-full placeholder:text-white/70 h-[10rem]"
+                required
             />
-            <button className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300
+            <button type="submit" className="mt-8 px-12 py-4 bg-blue-950 hover:bg-blue-900 transition-all duration-300
             cursor-ponter text-white rounded-full ">
                 Send Message
             </button>
-            
+          </form>
         </div>
       </div>
     </div>

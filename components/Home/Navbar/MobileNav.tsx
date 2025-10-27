@@ -17,11 +17,16 @@ const MobileNav = ({ showNav, closeNav }: Props) => {
     <div className={`fixed inset-0 ${navOpen} transform transition-all right-0 duration-500 z-[10002] bg-black opacity-70 w-full h-screen`} onClick={closeNav}></div>
     {/* navlinks */}
     <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 z-[100050] right-0`}>
-      {Navlinks.map((link) => {
-        return <Link key={link.id} href={link.url}>
-          <p className='text-white w-fit text-xl ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]'>{link.label}</p>
-        </Link>;
-      })}
+      {Navlinks.map((link) => (
+        <Link
+          key={link.id}
+          href={link.url}
+          className="text-white w-fit text-xl ml-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]"
+          onClick={closeNav}
+        >
+          {link.label}
+        </Link>
+      ))}
       {/* close icon */}
       <CgClose 
         onClick={closeNav} 
